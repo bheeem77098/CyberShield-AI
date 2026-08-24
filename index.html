@@ -8,405 +8,514 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 </head>
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
     <header class="navbar">
 
-        <div class="logo-area">
-            <div class="logo-shield">🛡️</div>
+        <a href="index.html" class="brand">
+            <div class="brand-icon">🛡</div>
 
-            <div>
-                <h2>CyberShield AI</h2>
+            <div class="brand-text">
+                <strong>CyberShield AI</strong>
                 <span>Stay Alert. Stay Safe.</span>
             </div>
-        </div>
+        </a>
 
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">URL Scanner</a>
-            <a href="#">Message Scanner</a>
-            <a href="#">Email Scanner</a>
-            <a href="#">About Us</a>
-            <a href="#">How It Works</a>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="#scanner">URL Scanner</a>
+            <a href="#scanner">Message Scanner</a>
+            <a href="#scanner">Email Scanner</a>
+            <a href="#about">About Us</a>
+            <a href="#how-it-works">How It Works</a>
         </nav>
 
-        <button class="nav-button">
-            ⚡ &nbsp; Scan Now
-        </button>
+        <a href="scanner.html" class="primary-button">
+    <span class="button-icon">🛡️</span>
+    <span>Scan Now</span>
+</a>
 
     </header>
 
 
-    <!-- ================= HERO ================= -->
+    <!-- =========================
+         HERO
+    ========================== -->
 
-    <section class="hero">
+    <main>
 
-        <div class="hero-content">
+        <section class="hero">
 
-            <h1>
-                Detect. Analyze.<br>
-                <span>Stay Safe.</span>
-            </h1>
+            <div class="hero-content">
 
-            <h3>
-                AI-Powered Cyber Fraud & Phishing Detection
-            </h3>
-
-            <p>
-                CyberShield AI helps you identify suspicious URLs,
-                messages, emails, and online threats in seconds
-                with explainable risk scores and smart insights.
-            </p>
-
-            <div class="hero-buttons">
-
-                <button class="primary-button">
-                    🛡️ &nbsp; Scan Now
-                </button>
-
-                <button class="secondary-button">
-                    ▶ &nbsp; Watch Demo
-                </button>
-
-            </div>
-
-        </div>
-
-
-        <!-- CYBER VISUAL -->
-
-        <div class="hero-visual">
-
-            <div class="alert-card alert-left">
-                <div class="alert-icon">🌐</div>
-
-                <div>
-                    <p>https://suspicious-link.com</p>
-                    <strong>Risk Score: 85%</strong>
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    AI-POWERED CYBERSECURITY
                 </div>
 
-                <span>⚠️</span>
-            </div>
+                <h1>
+                    Detect.
+                    Analyze.
+                    <span>Stay Safe.</span>
+                </h1>
 
-
-            <div class="laptop">
-
-                <div class="laptop-screen">
-
-                    <div class="screen-glow"></div>
-
-                 <div class="big-shield">
-    🔒
-</div>
-                </div>
-
-                <div class="laptop-base"></div>
-
-            </div>
-
-
-            <div class="alert-card alert-right-top">
-
-                <div class="alert-icon">✉️</div>
-
-                <div>
-                    <p>Urgent: Verify Your<br>Account Now!</p>
-                    <strong>Risk Score: 92%</strong>
-                </div>
-
-                <span>⚠️</span>
-
-            </div>
-
-
-            <div class="alert-card alert-right-bottom">
-
-                <div class="alert-icon">💬</div>
-
-                <div>
-                    <p>Congratulations!<br>You won a prize...</p>
-                    <strong>Risk Score: 78%</strong>
-                </div>
-
-                <span>⚠️</span>
-
-            </div>
-
-
-            <div class="target-circle">
-                <span>⚠️</span>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= SCANNER CARDS ================= -->
-
-    <section class="scanner-section">
-
-        <div class="scanner-card">
-
-            <div class="scanner-icon blue">
-                🔗
-            </div>
-
-            <div>
-                <h3>URL Scanner</h3>
+                <h2>
+                    AI-Powered Cyber Fraud &amp; Phishing Detection
+                </h2>
 
                 <p>
-                    Check if a website link is
-                    safe or a phishing threat.
+                    CyberShield AI helps you identify suspicious URLs,
+                    messages, emails, and online threats in seconds with
+                    explainable risk scores and intelligent insights.
                 </p>
-            </div>
 
-            <div class="arrow">›</div>
+                <!-- BUTTONS -->
 
-        </div>
+                <div class="hero-buttons">
 
+                    <a href="scanner.html" class="primary-button">
+                        <span class="button-icon">🛡</span>
+                        <span>Scan Now</span>
+                    </a>
 
-        <div class="scanner-card">
+                    <a href="#how-it-works" class="secondary-button">
+                        <span class="button-icon">▶</span>
+                        <span>Watch Demo</span>
+                    </a>
 
-            <div class="scanner-icon green">
-                💬
-            </div>
-
-            <div>
-                <h3>Message Scanner</h3>
-
-                <p>
-                    Analyze messages and detect
-                    fraudulent or scam content.
-                </p>
-            </div>
-
-            <div class="arrow">›</div>
-
-        </div>
-
-
-        <div class="scanner-card">
-
-            <div class="scanner-icon purple">
-                ✉️
-            </div>
-
-            <div>
-                <h3>Email Scanner</h3>
-
-                <p>
-                    Detect phishing emails and
-                    malicious email threats.
-                </p>
-            </div>
-
-            <div class="arrow">›</div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= HOW IT WORKS ================= -->
-
-    <section class="how-section">
-
-        <div class="section-title">
-            <span></span>
-            <h2>How It Works</h2>
-            <span></span>
-        </div>
-
-
-        <div class="steps">
-
-            <div class="step">
-
-                <div class="step-number">1</div>
-
-                <div class="step-icon">
-                    ➤
                 </div>
 
-                <div>
+                <div class="hero-trust">
+
+                    <div class="trust-item">
+                        <span>✓</span>
+                        AI Analysis
+                    </div>
+
+                    <div class="trust-item">
+                        <span>✓</span>
+                        Explainable Results
+                    </div>
+
+                    <div class="trust-item">
+                        <span>✓</span>
+                        Fast Detection
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 HERO VISUAL
+            ========================== -->
+
+            <div class="hero-visual">
+
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
+
+
+                <!-- URL CARD -->
+
+                <div class="threat-card url-card">
+
+                    <div class="threat-icon blue-icon">
+                        🔗
+                    </div>
+
+                    <div class="threat-info">
+                        <small>URL ANALYSIS</small>
+                        <p>Suspicious-link.com</p>
+                        <strong>Risk Score: 85%</strong>
+                    </div>
+
+                    <div class="warning">⚠</div>
+
+                </div>
+
+
+                <!-- LAPTOP -->
+
+                <div class="laptop">
+
+                    <div class="laptop-screen">
+
+                        <div class="screen-grid"></div>
+                        <div class="screen-glow"></div>
+
+                        <div class="scan-ring ring-one"></div>
+                        <div class="scan-ring ring-two"></div>
+
+                        <div class="shield">
+                            <div class="shield-symbol">✓</div>
+                        </div>
+
+                    </div>
+
+                    <div class="laptop-bottom">
+                        <div class="laptop-line"></div>
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL CARD -->
+
+                <div class="threat-card email-card">
+
+                    <div class="threat-icon purple-icon">
+                        ✉
+                    </div>
+
+                    <div class="threat-info">
+                        <small>EMAIL ANALYSIS</small>
+                        <p>Verify Your Account</p>
+                        <strong>Risk Score: 92%</strong>
+                    </div>
+
+                    <div class="warning">⚠</div>
+
+                </div>
+
+
+                <!-- MESSAGE CARD -->
+
+                <div class="threat-card message-card">
+
+                    <div class="threat-icon green-icon">
+                        💬
+                    </div>
+
+                    <div class="threat-info">
+                        <small>MESSAGE ANALYSIS</small>
+                        <p>You won a prize...</p>
+                        <strong>Risk Score: 78%</strong>
+                    </div>
+
+                    <div class="warning">⚠</div>
+
+                </div>
+
+
+                <!-- WARNING -->
+
+                <div class="warning-circle">
+                    <span>⚠</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SCANNER SECTION
+        ========================== -->
+
+        <section class="scanner-section" id="scanner">
+
+            <div class="section-heading">
+
+                <span>PROTECT YOURSELF</span>
+
+                <h2>
+                    Choose What You Want to <em>Scan</em>
+                </h2>
+
+                <p>
+                    Analyze suspicious content before it becomes a threat.
+                </p>
+
+            </div>
+
+
+            <div class="scanner-grid">
+
+                <a href="scanner.html" class="scanner-card">
+
+                    <div class="scanner-icon blue">
+                        🔗
+                    </div>
+
+                    <div class="scanner-content">
+
+                        <span class="card-number">01</span>
+
+                        <h3>URL Scanner</h3>
+
+                        <p>
+                            Check whether a website link is safe
+                            or potentially a phishing threat.
+                        </p>
+
+                    </div>
+
+                    <span class="card-arrow">→</span>
+
+                </a>
+
+
+                <a href="scanner.html" class="scanner-card">
+
+                    <div class="scanner-icon green">
+                        💬
+                    </div>
+
+                    <div class="scanner-content">
+
+                        <span class="card-number">02</span>
+
+                        <h3>Message Scanner</h3>
+
+                        <p>
+                            Analyze suspicious messages and
+                            detect scam or fraudulent content.
+                        </p>
+
+                    </div>
+
+                    <span class="card-arrow">→</span>
+
+                </a>
+
+
+                <a href="scanner.html" class="scanner-card">
+
+                    <div class="scanner-icon purple">
+                        ✉
+                    </div>
+
+                    <div class="scanner-content">
+
+                        <span class="card-number">03</span>
+
+                        <h3>Email Scanner</h3>
+
+                        <p>
+                            Detect phishing emails and suspicious
+                            email content before you respond.
+                        </p>
+
+                    </div>
+
+                    <span class="card-arrow">→</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HOW IT WORKS
+        ========================== -->
+
+        <section class="how-section" id="how-it-works">
+
+            <div class="section-heading">
+
+                <span>HOW IT WORKS</span>
+
+                <h2>
+                    Four Steps to <em>Stay Safe</em>
+                </h2>
+
+                <p>
+                    Simple analysis. Clear results. Better protection.
+                </p>
+
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <div class="step-icon">
+                        <span>01</span>
+                        📥
+                    </div>
+
                     <h3>Submit</h3>
+
                     <p>
-                        Enter a URL, message,
-                        or email to analyze.
+                        Enter a URL, message, or email
+                        you want to analyze.
                     </p>
+
                 </div>
 
-            </div>
+
+                <div class="step-line"></div>
 
 
-            <div class="step-line"></div>
+                <div class="step">
 
+                    <div class="step-icon green-step">
+                        <span>02</span>
+                        🧠
+                    </div>
 
-            <div class="step">
-
-                <div class="step-number">2</div>
-
-                <div class="step-icon green-icon">
-                    🧠
-                </div>
-
-                <div>
                     <h3>AI Analysis</h3>
+
                     <p>
-                        Our AI scans and analyzes
-                        patterns and threats.
+                        Our AI examines patterns,
+                        indicators and suspicious signals.
                     </p>
+
                 </div>
 
-            </div>
+
+                <div class="step-line"></div>
 
 
-            <div class="step-line"></div>
+                <div class="step">
 
+                    <div class="step-icon purple-step">
+                        <span>03</span>
+                        📊
+                    </div>
 
-            <div class="step">
-
-                <div class="step-number">3</div>
-
-                <div class="step-icon">
-                    🛡️
-                </div>
-
-                <div>
                     <h3>Risk Score</h3>
+
                     <p>
-                        Get an instant risk score
-                        with threat level.
+                        Receive a clear risk score
+                        and threat classification.
                     </p>
+
+                </div>
+
+
+                <div class="step-line"></div>
+
+
+                <div class="step">
+
+                    <div class="step-icon red-step">
+                        <span>04</span>
+                        🛡
+                    </div>
+
+                    <h3>Stay Safe</h3>
+
+                    <p>
+                        Understand the warning signs
+                        and follow safety recommendations.
+                    </p>
+
                 </div>
 
             </div>
 
+        </section>
 
-            <div class="step-line"></div>
+
+        <!-- =========================
+             STATS
+        ========================== -->
+
+        <section class="stats">
+
+            <div class="stat">
+                <strong>AI</strong>
+                <span>Powered Detection</span>
+            </div>
+
+            <div class="stat">
+                <strong>3</strong>
+                <span>Scanning Modes</span>
+            </div>
+
+            <div class="stat">
+                <strong>24/7</strong>
+                <span>Threat Analysis</span>
+            </div>
+
+            <div class="stat">
+                <strong>⚡</strong>
+                <span>Fast Results</span>
+            </div>
+
+        </section>
 
 
-            <div class="step">
+        <!-- =========================
+             ABOUT
+        ========================== -->
 
-                <div class="step-number">4</div>
+        <section class="about-section" id="about">
 
-                <div class="step-icon purple-icon">
-                    📄
+            <div class="about-box">
+
+                <div class="about-icon">
+                    🛡
                 </div>
 
                 <div>
-                    <h3>Explanation</h3>
+
+                    <span>ABOUT CYBERSHIELD AI</span>
+
+                    <h2>
+                        Think Before You <em>Click.</em>
+                    </h2>
+
                     <p>
-                        Receive detailed reasons
-                        and safety recommendations.
+                        CyberShield AI is designed to help users
+                        identify common cyber-fraud and phishing
+                        threats using intelligent analysis and
+                        easy-to-understand risk explanations.
                     </p>
+
                 </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
-
-
-    <!-- ================= STATS ================= -->
-
-    <section class="stats-section">
-
-        <div class="stat">
-
-            <div class="stat-icon">🛡️</div>
-
-            <div>
-                <h2>99.2%</h2>
-                <p>Detection Accuracy</p>
-            </div>
-
-        </div>
+    </main>
 
 
-        <div class="stat">
-
-            <div class="stat-icon">⚡</div>
-
-            <div>
-                <h2>2.3s</h2>
-                <p>Average Scan Time</p>
-            </div>
-
-        </div>
-
-
-        <div class="stat">
-
-            <div class="stat-icon">🛡️</div>
-
-            <div>
-                <h2>10K+</h2>
-                <p>Threats Detected</p>
-            </div>
-
-        </div>
-
-
-        <div class="stat">
-
-            <div class="stat-icon">👥</div>
-
-            <div>
-                <h2>5K+</h2>
-                <p>Users Protected</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= FOOTER ================= -->
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
     <footer>
 
         <div class="footer-brand">
 
-            <div class="logo-shield">🛡️</div>
+            <div class="brand-icon">🛡</div>
 
             <div>
-                <h3>CyberShield AI</h3>
+                <strong>CyberShield AI</strong>
                 <span>Stay Alert. Stay Safe.</span>
             </div>
 
         </div>
 
-
-        <div class="footer-links">
-
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
-            <a href="#">Contact Us</a>
-
+        <div class="footer-copy">
+            © 2026 CyberShield AI. Built for a safer digital world.
         </div>
 
-
-        <div class="social-icons">
-
-            <span>𝕏</span>
-            <span>in</span>
-            <span>◉</span>
-            <span>◎</span>
-
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
         </div>
 
     </footer>
-
 
 </body>
 </html>
